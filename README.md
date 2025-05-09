@@ -36,3 +36,9 @@ SetupHelper.exe /ComInterface=Register
 ```
 
 <img src="https://github.com/user-attachments/assets/654f673e-3614-40fe-8852-8e1af40a64d3" width=500 height=auto />  
+
+But this will not work because go does not find `System.ServiceProcess.ServiceController` next to `PDFCreator.exe`.
+
+## Conclusion 
+
+use a language other than go.
